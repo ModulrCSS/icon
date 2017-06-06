@@ -1,0 +1,26 @@
+{
+  "name": "modulr-icon",
+  "homepage": "https://github.com/ModulrCSS/icon",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Icon Module (ionic icons implemented modulr.css mod-* selector)",
+  "main": "",
+  "keywords": [
+    "ionic",
+    "icons",
+    "modulr",
+    "css",
+    "boostrap",
+    "frontend",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
