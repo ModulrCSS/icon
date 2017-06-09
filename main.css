@@ -49,25 +49,15 @@
   position: relative;
   top: 1px;
 }
-[mod-icon~="sm"]:before,
-[mod-icon~="sm"]:after{
-  font-size: 14px;
-}
-[mod-icon~="md"]:before,
-[mod-icon~="md"]:after{
-  font-size: 18px;
-}
-[mod-icon~="lg"]:before,
-[mod-icon~="lg"]:after{
-  font-size: 20px;
-}
-[mod-icon~="xl"]:before,
-[mod-icon~="xl"]:after{
-  font-size: 23px;
-}
-[mod-icon~="xxl"]:before,
-[mod-icon~="xxl"]:after{
-  font-size: 29px;
+
+/* --- increse icon size ---- */
+
+[mod-icon~="lg"]:not([mod-button~="fab"]):before,
+[mod-icon~="lg"]:not([mod-button~="fab"]):after{
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+  top: 0;
 }
 
 [mod-icon~="before"][mod-icon~="alert"]:before,
